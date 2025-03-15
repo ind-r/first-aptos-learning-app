@@ -1,0 +1,19 @@
+[package]
+name = "TodoList"
+version = "1.0.0"
+authors = ["walruii"]
+
+[addresses]
+todolist_addr = "_"
+hello_addr = "_"
+hello2_addr = "_"
+hello3_addr = "_"
+hello4_addr = "_"
+hello5_addr = "_"
+hello6_addr = "_"
+hello7_addr = "_"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", rev = "mainnet", subdir = "aptos-move/framework/aptos-framework" }
+
+[dev-dependencies]
